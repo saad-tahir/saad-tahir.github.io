@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+  Saad Tahir, portfolio
+  ======================
+  Edit CONTENT in app.js. Images: local → Google Sites remote → drawn art.
+  Draft: add ?draft to the URL.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Saad Tahir, mechanical engineer: FEA, computational mechanics, design</title>
+<meta name="description" content="Saad Tahir, M.S. Solid Mechanics. Nonlinear FEA, composite mechanics, vibration analysis, and simulation software that bridges academic research and industrial design — from centrifugal fans to corrugated packaging.">
+<meta property="og:title" content="Saad Tahir, mechanical engineer">
+<meta property="og:description" content="Nonlinear FEA, vibration analysis, and simulation software based on state-of-the-art research. From centrifugal fans to corrugated packaging.">
+<meta property="og:image" content="https://i.ytimg.com/vi/UUrPsozc4bM/hqdefault.jpg">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%229%22 fill=%22%2315181D%22/><text x=%2216%22 y=%2221%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-weight=%22700%22 font-size=%2213%22 fill=%22white%22>ST</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<div class="draft-bar" id="draftBar" hidden><div class="wrap">Draft view: missing images and links are shown with the file path to upload. Visitors don't see these. Remove <b>?draft</b> from the address to see the public site.</div></div>
+
+<header class="bar" id="bar">
+  <div class="wrap bar-in">
+    <a class="brand" href="#overview"><i aria-hidden="true">ST</i>Saad Tahir</a>
+    <nav class="tabs" role="tablist" aria-label="Sections" id="tablist"></nav>
+    <a class="btn solid" id="cvBtn" href="#" download>
+      <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M3 13h10"/></svg><span>Download CV</span>
+    </a>
+  </div>
+</header>
+
+<main id="main"><div class="wrap" id="panels"></div></main>
+
+<footer>
+  <div class="wrap foot">
+    <div class="foot-l"><span class="brand"><i aria-hidden="true">ST</i>Saad Tahir</span><span class="muted" id="availFooter"></span></div>
+    <div class="foot-r" id="footLinks"></div>
+    <div class="fine"><span>&copy; <span id="year"></span> Saad Tahir</span><span>Figures and videos are from my own research and projects. Industrial images shown with client approval.</span></div>
+  </div>
+</footer>
+
+<dialog class="lb" id="lightbox">
+  <img id="lbImg" alt="">
+  <p><span id="lbCap"></span><button id="lbClose">Close</button></p>
+</dialog>
+
+<noscript><div class="wrap"><p>This portfolio needs JavaScript for its tabs. You can still <a href="cv/Saad_Tahir_CV.pdf">download my CV</a> or <a href="https://www.linkedin.com/in/saad-tahir">reach me on LinkedIn</a>.</p></div></noscript>
+
+<script src="app.js"></script>
+</body>
+</html>
